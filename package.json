@@ -1,0 +1,34 @@
+{
+  "name": "emmet-airdrop",
+  "version": "1.0.0",
+  "description": "EmmetAirdrop contract, utilities & data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmet-Finance/EmmetAirdrop.git"
+  },
+  "keywords": [
+    "SFT",
+    "EMMET",
+    "Airdrop",
+    "Collection",
+    "NFT",
+    "Emmet.Finance"
+  ],
+  "author": "Mithras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emmet-Finance/EmmetAirdrop/issues"
+  },
+  "homepage": "https://github.com/Emmet-Finance/EmmetAirdrop#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
